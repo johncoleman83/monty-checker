@@ -1,4 +1,6 @@
-# <img src="https://www.holbertonschool.com/assets/holberton-logo-1cc451260ca3cd297def53f2250a9794810667c7ca7b5fa5879a569a457bf16f.png" alt="Holberton logo">  monty checker
+# monty checker
+
+<img src="https://github.com/johncoleman83/monty-checker/blob/master/Python1.jpg" alt="monty python" style="box-shadow: 0 0 10px 3px #707070;">
 
 
 ## Synopsis
@@ -12,9 +14,14 @@ you know what you are doing first! Don't trust; know the code!
 
 ## Configuration
 
-To configure the checker with your monty project run the `init.bash` script.
-In the below example command GITHUB_USERNAME is the github username that is
-hosting the monty repository that you want to check
+* First clone this repo
+```
+git clone https://github.com/johncoleman83/monty-checker.git
+```
+* Then change directories to the monty-checker directory, where you cloned this checker
+* To configure the checker with your monty project run the `init.bash` script.
+  In the below example command GITHUB_USERNAME is the github username that is
+  hosting the monty repository that you want to check
 
 ```
 $ ./init.bash [GITHUB_USERNAME]
