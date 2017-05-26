@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# checks modulo
+
+montyfile="./bytecodes/mod.m"
+correct="./expected/mod.txt"
+
+# send commands
+./monty $montyfile > $OUTPUTFILE 2> $ERROROUTPUTFILE &
+cat $correct > $EXPECTED
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+check_diff
+
+#error
+print_error
+
+# clean up
+stop_monty

@@ -1,0 +1,12 @@
+# Configuration file
+
+R=$RANDOM
+TESTDIR="./tests/"
+OUTPUTFILE="youroutput.txt"
+EXPECTED="expected.txt"
+DIFF="diff.txt"
+ERROROUTPUTFILE="error.txt"
+ERROREXPECTED="errorexpected.txt"
+MONTY="./monty"
+SLEEP=`which sleep`
+SLEEPSECONDS=1

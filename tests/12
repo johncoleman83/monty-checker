@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# check add
+
+montyfile="./bytecodes/12.m"
+correct="./expected/12.txt"
+
+# send commands
+./monty $montyfile > $OUTPUTFILE 2> $ERROROUTPUTFILE &
+cat $correct > $EXPECTED
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+check_diff
+
+#error
+print_error
+
+# clean up
+stop_monty
