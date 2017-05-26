@@ -9,7 +9,7 @@ monty checker is an automated task checker for Holberton School's monty project.
 
 ## RTFM
 
-**Please look into the code before you use it!**  We are using sudo, so be sure
+**Please look into the code before you use it!**  be sure
 you know what you are doing first! Don't trust; know the code!
 
 ## Configuration
