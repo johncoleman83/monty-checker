@@ -1,1 +1,1 @@
-L7: division by zero
+Error: Can't open file bytecode-fails/fail-div

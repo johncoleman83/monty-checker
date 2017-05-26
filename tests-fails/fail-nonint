@@ -6,7 +6,7 @@ montyfile="./bytecode-fails/fail-nonint.m"
 correct="./expected-fails/fail-nonint.txt"
 
 # send commands
-./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+./monty $montyfile > $ERROROUTPUTFILE > $OUTPUTFILE &
 cat $correct > $EXPECTED
 
 # wait a little bit

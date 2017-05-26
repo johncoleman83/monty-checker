@@ -5,7 +5,7 @@
 correct="./expected-fails/fail-noinput.txt"
 
 # send commands
-./monty > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+./monty > $ERROROUTPUTFILE > $OUTPUTFILE &
 cat $correct > $EXPECTED
 
 # wait a little bit

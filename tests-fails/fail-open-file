@@ -6,7 +6,7 @@ montyfile="You_Should_Have_An_Error_Here!"
 correct="./expected-fails/fail-open-file.txt"
 
 # send commands
-./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+./monty $montyfile > $ERROROUTPUTFILE > $OUTPUTFILE &
 cat $correct > $EXPECTED
 
 # wait a little bit
