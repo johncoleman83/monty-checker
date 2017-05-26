@@ -13,7 +13,7 @@ you know what you are doing first! Don't trust; know the code!
 ## Configuration
 
 To configure the checker with your monty project run the `init.bash` script.
-In the below example command GITHUB_USERNAME is your github username that is
+In the below example command GITHUB_USERNAME is the github username that is
 hosting the monty repository that you want to check
 
 ```
