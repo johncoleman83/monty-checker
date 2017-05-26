@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-# check fails division
+# check for failure to open file
 
-montyfile="./bytecode-fails/fail-div.m"
-correct="./expected-fails/fail-div.txt"
+montyfile="You_Should_Have_An_Error_Here!"
+correct="./expected-fails/fail-open-file.txt"
 
 # send commands
 ./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &

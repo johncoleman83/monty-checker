@@ -1,12 +1,11 @@
 #!/bin/bash
 #
-# check fails division
+# checks monty for no input file
 
-montyfile="./bytecode-fails/fail-div.m"
-correct="./expected-fails/fail-div.txt"
+correct="./expected-fails/fail-noinput.txt"
 
 # send commands
-./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+./monty > $ERROROUTPUTFILE 2> $OUTPUTFILE &
 cat $correct > $EXPECTED
 
 # wait a little bit

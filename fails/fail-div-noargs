@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# check push pall standard
+# check fail division no arguments to divide
 
 montyfile="./bytecode-fails/fail-div-noargs.m"
 correct="./expected-fails/fail-div-noargs.txt"
