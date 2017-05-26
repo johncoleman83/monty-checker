@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# check push pall standard
+# check xtra args no spaces
 
 montyfile="./bytecodes/xtra-args.m"
 correct="./expected/xtra-args.txt"

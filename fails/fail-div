@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# check push pall standard
+
+montyfile="./bytecode-fails/fail-div.m"
+correct="./expected-fails/fail-div.txt"
+
+# send commands
+./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+cat $correct > $EXPECTED
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+check_diff
+
+#error
+#print_error
+
+# clean up
+stop_monty

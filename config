@@ -2,6 +2,7 @@
 
 R=$RANDOM
 TESTDIR="./tests/"
+FAILDIR="./fails/"
 OUTPUTFILE="youroutput.temp"
 EXPECTED="expected.temp"
 DIFF="diff.temp"

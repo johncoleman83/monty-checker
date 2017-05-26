@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# check unknown arguments
+
+montyfile="./bytecode-fails/fail-unknown-arg.m"
+correct="./expected-fails/fail-unknown-arg.txt"
+
+# send commands
+./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+cat $correct > $EXPECTED
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+check_diff
+
+#error
+#print_error
+
+# clean up
+stop_monty

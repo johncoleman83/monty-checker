@@ -33,10 +33,8 @@ function print_ok()
 #######################################
 # Prints error messages if any
 # Globals:
-#   RED
 #   ERROROUTPUTFILE
 #   ERROREXPECTED
-#   BLACK
 # Arguments:
 #   None
 # Returns:
@@ -156,7 +154,7 @@ echo "--------------------------------------------"
 echo "--------------------------------------------"
 > $OUTPUTFILE && > $EXPECTED && > $DIFF && > $ERROROUTPUTFILE && > $ERROREXPECTED
 
-# Locates all tests and launch them
+# Locates standard tests and launches them
 for testname in `ls $TESTDIR | grep -v "~$"`
 do
 	echo "--------------------------------------------"
@@ -165,6 +163,18 @@ do
 	cat $TESTDIR$testname | head -3 | tail -1
 	echo "--------------------------------------------"
 	source "$TESTDIR$testname"
+done
+
+
+# Locates FAIL tests and launches them
+for testname in `ls $FAILDIR | grep -v "~$"`
+do
+	echo "--------------------------------------------"
+	echo "  >>     $testname"
+	echo -n "  >>     "
+	cat $FAILDIR$testname | head -3 | tail -1
+	echo "--------------------------------------------"
+	source "$FAILDIR$testname"
 done
 
 # Cleanup

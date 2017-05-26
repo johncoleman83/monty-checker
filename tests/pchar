@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# check push pall standard
+# check pchar standard
 
 montyfile="./bytecodes/pchar.m"
 correct="./expected/pchar.txt"

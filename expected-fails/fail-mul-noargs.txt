@@ -1,0 +1,1 @@
+L4: can't mul, stack too short

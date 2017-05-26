@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# check no integer
+
+montyfile="./bytecode-fails/fail-nonint.m"
+correct="./expected-fails/fail-nonint.txt"
+
+# send commands
+./monty $montyfile > $ERROROUTPUTFILE 2> $OUTPUTFILE &
+cat $correct > $EXPECTED
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+check_diff
+
+#error
+#print_error
+
+# clean up
+stop_monty
