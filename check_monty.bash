@@ -169,5 +169,5 @@ done
 
 # Cleanup
 > $OUTPUTFILE && > $EXPECTED && > $DIFF && > $ERROROUTPUTFILE && > $ERROREXPECTED
-rm -f *txt
+rm -f *temp
 echo -ne "\033[30m"
