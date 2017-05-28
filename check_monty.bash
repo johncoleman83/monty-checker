@@ -165,6 +165,19 @@ do
 	source "$TESTDIR$testname"
 done
 
+# Fail Checks
+
+echo -ne "\033[30m"
+echo ""
+echo ""
+echo "--------------------------------------------"
+echo "--------------------------------------------"
+echo "----   checking for expected fails...   ----"
+echo "--------------------------------------------"
+echo "--------------------------------------------"
+echo ""
+echo ""
+echo -ne "\033[37m"
 
 # Locates FAIL tests and launches them
 for testname in `ls $FAILDIR | grep -v "~$"`
