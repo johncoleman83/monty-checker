@@ -62,8 +62,8 @@ outlined in the CONTRIBUTING.md file
 
 ## Authors
 
-David John Coleman II, check out my website http://www.davidjohncoleman.com
+David John Coleman II, [davidjohncoleman.com](http://www.davidjohncoleman.com)
 
 ## License
 
-Public Domain, no copyright protection
+MIT License
