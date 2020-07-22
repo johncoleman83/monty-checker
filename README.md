@@ -5,8 +5,8 @@
 
 ## Synopsis
 
-monty checker is an automated task checker for Holberton School's monty project.
-This checker simulates Holberton's checker in that it clones your repository
+monty checker is an automated task checker for Bootcamp School's monty project.
+This checker simulates Bootcamp's checker in that it clones your repository
 with the `init.bash` script, and then compiles your program with these -Warning
 flags:
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Performing checks on the Holberton School "simple shell" project
+# Performing checks on the Bootcamp School "simple shell" project
 
 #######################################
 # Print KO, in red, followed by a new line
