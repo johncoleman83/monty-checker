@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Performing checks on the a software development program "simple shell" project
+# Performing checks on a software development program "simple shell" project
 
 #######################################
 # Print KO, in red, followed by a new line
