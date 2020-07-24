@@ -5,7 +5,7 @@
 
 ## Synopsis
 
-monty checker is an automated task checker for Bootcamp School's monty project.
+monty checker is an automated task checker for a software development program's monty project.
 This checker simulates Bootcamp's checker in that it clones your repository
 with the `init.bash` script, and then compiles your program with these -Warning
 flags:
